@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak - andra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Website Profil Mahasiswa</h1>
+
+    <button onclick="darkMode()" class="dark-btn">🌙 Dark Mode</button>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="profil.html">PROFIL</a>
+        <a href="kontak.html">KONTAK</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Form Kontak</h2>
+
+    <form onsubmit="return validasiForm()">
+        <input type="text" id="nama" placeholder="Nama"><br><br>
+        <input type="email" id="email" placeholder="Email"><br><br>
+        <textarea id="pesan" placeholder="Pesan"></textarea><br><br>
+
+        <button type="submit" class="btn-biru">Kirim</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 - Diandra Harry Saputra</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
